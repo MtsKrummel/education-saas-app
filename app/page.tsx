@@ -1,12 +1,12 @@
+import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const Page = () => {
   return (
-    <div>
-      <h1 className='text-2xl underline'>Page</h1>
+    <section className='home-section'>
       <Button>Let's get started</Button>
-    </div>
+    </section>
   )
 }
 
